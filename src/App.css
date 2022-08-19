@@ -32,6 +32,17 @@
   padding-top: 14rem;
 }
 
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+  flex-direction: row;
+  flex-grow: 5;
+  justify-content: space-around;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
