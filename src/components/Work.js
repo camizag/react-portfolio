@@ -1,9 +1,12 @@
 import * as React from 'react';
 import { Container, Grid, CardContent, CardMedia, CardActionArea, Card, Typography } from '@mui/material';
+import {Navbar} from "./Navbar"
+
 
 export default function Work() {
     return (
         <Grid className='mywork'>
+            <Navbar/>
 
                 <div className='cards'containerSpacing={3} >
                     <Card className='card' >

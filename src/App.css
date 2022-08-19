@@ -43,13 +43,12 @@
   justify-content: space-around;
 }
 
-.socials {
-  padding-top: 14rem;
-}
 
 img {
   padding: 5rem;
 }
+
+
 
 @keyframes App-logo-spin {
   from {
