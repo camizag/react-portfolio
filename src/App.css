@@ -1,17 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -28,13 +23,28 @@
   color: #61dafb;
 }
 
+
 .homepage { 
-  padding-top: 14rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
+.homepage-title {
+  padding-bottom: 2rem;
+}
+
+.work-title h2 {
+  color: #E94B3CFF;
+}
+
+.homepage-body p {
+  color: #2D2926FF;
 }
 
 .cards {
   display: flex;
   justify-content: space-around;
+  padding-top: 4rem;
 }
 
 .card {
@@ -48,13 +58,39 @@ img {
   padding: 5rem;
 }
 
+.navbar {
 
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  justify-content: right;
 }
+
+.contact-title {
+  padding-top: 4rem;
+}
+
+.contact-title h2 {
+  color: #E94B3CFF;
+}
+
+.contact-info {
+  padding-top: 4rem;
+}
+
+.contact-info p {
+  color: #2D2926FF;
+}
+
+.contact-links {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.contact-links a {
+  color: #E94B3CFF;
+  text-decoration: none; 
+  font-size: large;
+}
+
+.card-link {
+  padding-left: 1.5rem;
+}
+
